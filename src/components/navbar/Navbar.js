@@ -40,7 +40,7 @@ const Navbar = () => {
 
 
     return (
-        <div name='top' className='navbar container'>
+        <div name='top' className='navbar'>
             <div className="navbar-container">
                 
                  <div className="navbar-logo">

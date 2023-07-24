@@ -10,16 +10,15 @@ import Fade from 'react-reveal/Fade';
 const Hero = () => {
     return (
 <>        
-<div className='hero container'>
+<div className='hero'>
     <div className="hero-container">
 
         <div className="content">
                 <Fade left>
-                <h1>In-home Addiction & Mental Health Treatment</h1>
+                <h1>Transitions For Tomorrow</h1>
                 </Fade>
                 <Fade right>
-                <p>You don’t need to put your life on hold.</p>
-                <p>We bring addiction treatment to you so you can heal at home.</p>
+                <p>Overcome challenges through evidence-based practices that set you up for success and stability in your life.</p>
                 </Fade>
         </div>
 
