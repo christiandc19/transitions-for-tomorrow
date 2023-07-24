@@ -1,0 +1,87 @@
+.team-section {
+    width: 100%;
+    position: relative;
+    background: rgb(255, 255, 255);
+}
+
+.team-section-header {
+    width: 80%;
+    margin: auto;
+}
+
+.team-section .content {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.team-section .content {
+    padding: 1rem;
+}
+
+.team-section p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.team-section-header h1 {
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+}
+
+
+.flex-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.team-thumbnail {
+    width: 350px;
+}
+
+.team-thumbnail img {
+   width: 100%;
+    box-shadow: 10px 5px 5px rgb(129, 129, 129);
+    border-radius: 1rem;
+}
+
+
+.mission-section button {
+    margin: auto;
+}
+
+@media screen and (max-width: 940px) {
+    .team-section .content {
+        width: 100%;
+    }
+
+    .team-section h1 {
+        font-size: 25px;
+    }
+
+    .team-section p {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .team-thumbnail {
+        width: 100%;
+    }
+}
+
+
+
+
+
