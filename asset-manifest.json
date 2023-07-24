@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/transitions-for-tomorrow/static/css/main.02fa5bbe.css",
-    "main.js": "/transitions-for-tomorrow/static/js/main.d2205fd5.js",
+    "main.css": "/transitions-for-tomorrow/static/css/main.017d3cbc.css",
+    "main.js": "/transitions-for-tomorrow/static/js/main.1f13eded.js",
+    "static/media/hero-bg.jpg": "/transitions-for-tomorrow/static/media/hero-bg.20fa9a16b8b45f526d03.jpg",
     "static/media/losangeles.jpg": "/transitions-for-tomorrow/static/media/losangeles.51fd710ba563a4e60045.jpg",
     "static/media/contact.jpg": "/transitions-for-tomorrow/static/media/contact.97fe3bf629199f52f296.jpg",
     "static/media/opioidSection2.jpg": "/transitions-for-tomorrow/static/media/opioidSection2.08e0a41f470d8cfd1298.jpg",
@@ -23,7 +24,6 @@
     "static/media/OpioidSection3IMG2.jpg": "/transitions-for-tomorrow/static/media/OpioidSection3IMG2.1e9d6714c288db245e16.jpg",
     "static/media/story1.jpg": "/transitions-for-tomorrow/static/media/story1.45123b53cd4b6bbc2a3a.jpg",
     "static/media/opioidSection1.jpg": "/transitions-for-tomorrow/static/media/opioidSection1.189f6ee7619a139e8c1d.jpg",
-    "static/media/hero-bg.jpg": "/transitions-for-tomorrow/static/media/hero-bg.ab0378779e3854a1e18e.jpg",
     "static/media/section2-img.jpg": "/transitions-for-tomorrow/static/media/section2-img.4939390a51887376534f.jpg",
     "static/media/family.jpg": "/transitions-for-tomorrow/static/media/family.e832f6a2f28cc33ddc0c.jpg",
     "static/media/insurance.jpg": "/transitions-for-tomorrow/static/media/insurance.0a91892b38e8f47e39f0.jpg",
@@ -68,11 +68,11 @@
     "static/media/united-healthcare.png": "/transitions-for-tomorrow/static/media/united-healthcare.3232942dcd76167b3bca.png",
     "static/media/aetna.png": "/transitions-for-tomorrow/static/media/aetna.6dd387382e5c040dbe55.png",
     "index.html": "/transitions-for-tomorrow/index.html",
-    "main.02fa5bbe.css.map": "/transitions-for-tomorrow/static/css/main.02fa5bbe.css.map",
-    "main.d2205fd5.js.map": "/transitions-for-tomorrow/static/js/main.d2205fd5.js.map"
+    "main.017d3cbc.css.map": "/transitions-for-tomorrow/static/css/main.017d3cbc.css.map",
+    "main.1f13eded.js.map": "/transitions-for-tomorrow/static/js/main.1f13eded.js.map"
   },
   "entrypoints": [
-    "static/css/main.02fa5bbe.css",
-    "static/js/main.d2205fd5.js"
+    "static/css/main.017d3cbc.css",
+    "static/js/main.1f13eded.js"
   ]
 }
