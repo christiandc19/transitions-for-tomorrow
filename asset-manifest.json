@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/transitions-for-tomorrow/static/css/main.108d9cbf.css",
-    "main.js": "/transitions-for-tomorrow/static/js/main.0027ae36.js",
+    "main.js": "/transitions-for-tomorrow/static/js/main.0dc6c7cd.js",
     "static/media/losangeles.jpg": "/transitions-for-tomorrow/static/media/losangeles.51fd710ba563a4e60045.jpg",
     "static/media/contact.jpg": "/transitions-for-tomorrow/static/media/contact.97fe3bf629199f52f296.jpg",
     "static/media/housing.jpg": "/transitions-for-tomorrow/static/media/housing.b383309ca7ff6c121415.jpg",
@@ -53,10 +53,10 @@
     "static/media/arrow2.png": "/transitions-for-tomorrow/static/media/arrow2.ec1e6a665f7fe1b544bc.png",
     "index.html": "/transitions-for-tomorrow/index.html",
     "main.108d9cbf.css.map": "/transitions-for-tomorrow/static/css/main.108d9cbf.css.map",
-    "main.0027ae36.js.map": "/transitions-for-tomorrow/static/js/main.0027ae36.js.map"
+    "main.0dc6c7cd.js.map": "/transitions-for-tomorrow/static/js/main.0dc6c7cd.js.map"
   },
   "entrypoints": [
     "static/css/main.108d9cbf.css",
-    "static/js/main.0027ae36.js"
+    "static/js/main.0dc6c7cd.js"
   ]
 }
