@@ -1,8 +1,9 @@
 import React from 'react'
 import './Section1.css'
-import individual from '../../assets/section1-card2.png'
-import family from '../../assets/section1-card1.png'
-import Rainbow from '../../assets/rainbow.png'
+
+import Employment from '../../assets/employment-icon.png'
+import Housing from '../../assets/housing-icon.png'
+import Other from '../../assets/other-resources-icon.png'
 
 import { Link as LinkRoll } from 'react-scroll'
 import { Link } from 'react-router-dom';
@@ -11,35 +12,48 @@ import { Link } from 'react-router-dom';
 const Section1 = () => {
   return (
     <>
-      <div className='section1 container'>
-                    <div className='rainbow'>
-                        <img src={ Rainbow } alt="individual therapy" loading="lazy"/>
+      <div className='section1'>
+                    <div className='section1-header'>
+                    <h1>Providing better resources to help you move forward with whatever comes next.</h1>
                     </div>
+                      
 
         <div className='section1-content'>
 
-
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/individual">
+              <Link to="/employment">
                 <div className='section1-card'>
                     <div className='section1-card-img'>
-                        <img src={ individual } alt="individual therapy" loading="lazy"/>
+                        <img src={ Employment } alt="hand shake" loading="lazy"/>
                     </div>
                     <div className='section1-card-caption'>
-                        <h1>For Individuals</h1>
+                        <h1>Empoloyment Assitance</h1>
                     </div>
                 </div>
               </Link>
               </LinkRoll>
 
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/loved-ones">
+              <Link to="/transitional-housing">
                 <div className='section1-card'>
                     <div className='section1-card-img'>
-                        <img src={ family } alt="individual therapy" loading="lazy"/>
+                        <img src={ Housing } alt="Transitional Housing" loading="lazy"/>
                     </div>
                     <div className='section1-card-caption'>
-                        <h1>For Loved Ones</h1>
+                        <h1>Transitional Housing</h1>
+                    </div>
+                </div>
+              </Link>
+              </LinkRoll>
+
+              <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+              <Link to="/other-resources">
+                <div className='section1-card'>
+                    <div className='section1-card-img'>
+                        <img src={ Other } alt="Other Resources" loading="lazy"/>
+                    </div>
+                    <div className='section1-card-caption'>
+                        <h1>Other Resources</h1>
                     </div>
                 </div>
               </Link>

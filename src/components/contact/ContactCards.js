@@ -8,7 +8,7 @@ import Visit from '../../assets/visit_us.png'
 const ContactCards = () => {
   return (
     <>
-    <div className='contact-cards container'>
+    <div className='contact-cards'>
         <div className='contact-cards-contents'>
 
                 <div className='contact-card'>
@@ -17,7 +17,7 @@ const ContactCards = () => {
                     </div>
                     <div className='contact-card-info'>
                         <h1>CALL US</h1>
-                        <p>132435465465</p>
+                        <p>+1 (323) 840-1234</p>
                     </div>
                 </div>
 
@@ -27,7 +27,7 @@ const ContactCards = () => {
                     </div>
                     <div className='contact-card-info'>
                         <h1>EMAIL</h1>
-                        <p>info@domailname.com</p>
+                        <p>info@transitionsfortomorrow.org</p>
                     </div>
                 </div>
 
@@ -38,7 +38,7 @@ const ContactCards = () => {
                     </div>
                     <div className='contact-card-info'>
                         <h1>CONNECT</h1>
-                        <p>132435465465</p>
+                        <p>11800 Vine St., Suite 210, Los Angeles, CA 90028</p>
                     </div>
                 </div>
 

@@ -1,12 +1,11 @@
 .contact-cards {
     padding: 3rem 0 ;
     background-color: white;
-    border-bottom: 6px solid rgb(224, 109, 42);
     margin: auto;
 }
 
 .contact-card {
-    width: 200px;
+    width: 250px;
 }
 
 .contact-card h1 {
@@ -17,7 +16,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .contact-card-icon {

@@ -1,17 +1,29 @@
 .section1 {
-    background-color: rgb(245, 240, 240);
+    background-color: rgb(255, 255, 255);
     padding: 5rem 0;
-    background: url('../../assets/hero-bg-1.jpg') no-repeat center top/cover;
+    /* background: url('../../assets/hero-bg-1.jpg') no-repeat center top/cover; */
     position: relative;
     z-index: 1;
 }
 
+
+.section1-header {
+    width: 70%;
+    margin: auto;
+}
+
+.section1-header h1 {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 3rem;
+}
+
 .section1-content {
-    margin-top: -8rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
+    padding: 3rem 0;
 }
 
 .section1-card-caption {
@@ -22,13 +34,14 @@
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 2px;
+    padding: 1rem 0;
 }
 
 .section1-card {
     text-align: center;
     background-color: white;
-    width: auto;
-    padding: 2rem;
+    width: 300px;
+    height: 230px;
     border-radius: 1rem;
     box-shadow: 10px 14px 15px -14px rgba(0,0,0,0.75);
     transition: border-radius .5s;
@@ -76,8 +89,10 @@
 }
 
 
-@media screen and (max-width:700px) {
-    .rainbow img {
-        width: 100%;
+@media screen and (max-width:940px) {
+    .section1-header h1 {
+        text-align: center;
+        padding: 1rem 0;
+        font-size: 2rem;
     }
 }
