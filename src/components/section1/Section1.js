@@ -27,7 +27,7 @@ const Section1 = () => {
                         <img src={ Employment } alt="hand shake" loading="lazy"/>
                     </div>
                     <div className='section1-card-caption'>
-                        <h1>Empoloyment Assitance</h1>
+                        <h1>Employment Assitance</h1>
                     </div>
                 </div>
               </Link>
