@@ -1,5 +1,6 @@
 .others1 {
     background-color: white;
+    padding: 3rem 0;
 }
 
 .others1-flex {
@@ -7,12 +8,11 @@
     justify-content: center;
     gap: 1rem;
     width: 100%;
-    margin: auto;
 
 }
 
 .others1-left {
-    width: 80%;
+    width: 50%;
     margin: auto;
     padding: 1rem;
 }
@@ -31,42 +31,29 @@
 
 
 .others1-right {
-    padding: 1rem;
+    width: 500px;
     margin: auto;
-    width: 100%;
-    height: 100%;
-    text-align: center;
 }
 
 
 .others1-right img {
-    width: 70%;
-    padding: 1rem;
+    width: 100%;
 }
 
 
 
 @media screen and (max-width:940px) {
-    .storySection1-left {
-        width: 90%;
-    }
-
-    .storySection1-flex {
+    .others1-flex {
         flex-wrap: wrap;
     }
 
-    .storySection1-subheader {
+    .others1-left {
         width: 90%;
     }
-
-    .storySection1-right {
-        width: 100%;
-    }
-
-    .storySection1-accent {
-
-        top: -10%;
-        left: 0rem;
+    
+    
+    .others1-right {
+        width: 90%;
     }
 
 }

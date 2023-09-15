@@ -22,35 +22,31 @@
 
 
 .hero .hero-container {
-
-    align-items: left;
-    text-align: left;
     width: 100%;
 }
 
 .hero .content {
   width: 50%;
-  top: 30%;
-  left: 5%;
+  top: 35%;
   position: absolute;
   padding: 1rem;
-  padding: 1rem;
+  text-align: center;
 }
 
 
 .hero h1 {
     font-size: 5rem;
     color: rgb(255, 255, 255);
-    padding: 1rem 0;
-    line-height: 4rem;
+    padding: .5rem;
     letter-spacing: 2px;
     font-family: 'Roboto Slab', serif;
     font-weight: 900;
 }
 
 .hero p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: rgb(255, 255, 255);
+    padding: .5rem;
 }
 
 

@@ -69,7 +69,7 @@
   padding: 2rem 2rem ;
   background: #fff;
   box-shadow: -4px -2px 20px -7px #7e7f81;
-  margin: 4rem 2rem 2rem 3rem;
+  margin: 4rem 1rem 2rem 1rem;
 }
 
 input {
@@ -151,8 +151,14 @@ input[type="submit"]:hover {
 }
 
 
+@media screen and (max-width: 940px) {
+  .contact-container {
+    width: 95%;
+  }
+}
 
 
+/* 
 @media screen and (max-width: 940px) {
   .get_form_inner {
       margin: 4rem 1rem 2rem 1rem;
@@ -170,4 +176,4 @@ input[type="submit"]:hover {
     .contact-card {
       width: 200px;
     }
-  }
+  } */
