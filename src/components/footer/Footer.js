@@ -31,7 +31,7 @@ const Footer = () => {
 
                 <div className="col-container">
 
-                    <div className="col">
+                    <div className="column">
                         <h3>Company</h3>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
@@ -45,11 +45,10 @@ const Footer = () => {
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/our-mission'><p>Our Mission</p></Link>
                         </LinkRoll>
-
                     </div>
 
 
-                    <div className="col">
+                    <div className="column">
                         <h3>Navigation</h3>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
@@ -66,7 +65,7 @@ const Footer = () => {
                     </div>
 
 
-                    <div className="col">
+                    <div className="column">
                         <h3>Contact Us</h3>
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/los-angeles'><p><a href="tel:3238401234">  (323) 5840-1234</a></p></Link>
@@ -75,12 +74,13 @@ const Footer = () => {
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/'><p>1800 Vine St., Suite 210, <br/>Los Angeles, CA 90028</p></Link>
                         </LinkRoll>
-
                     </div>
 
-                </div>
-                <p className='copyright'><p>&copy; 2023 Transitions For Tomorrow. All rights reserved</p></p>
 
+                </div>
+
+
+                <p className='copyright'><p>&copy; 2023 Transitions For Tomorrow. All rights reserved</p></p>
 
             </div>
 

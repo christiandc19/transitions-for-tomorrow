@@ -61,19 +61,27 @@
 }
 
 .footer h3 {
-    color: rgb(32, 30, 30);
+    color: rgb(12, 12, 12);
+    font-size: 1rem;
+}
+
+
+.footer a {
+    color: rgb(12, 12, 12);
     font-size: 1rem;
 }
 
 .footer .col-container {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 1rem;
     padding: 1rem;
-    width: 100%;
 }
-.col {
-    width: 250px;
+
+.column {
+    width: 30%;
     padding: 1rem;
 }
 
@@ -103,13 +111,13 @@
         height: 100%;
     }
 
-    .footer form {
-        grid-column: 1 / span 4;
+    .footer h1, .footer h2, .footer h3, .footer p {
         text-align: center;
     }
 
-    .footer h1, .footer h2, .footer h3, .footer p {
-        text-align: center;
+    .column {
+        background-color: rgba(172, 221, 236, 0.11);
+        width: 90%;
     }
     
 }
