@@ -7,17 +7,17 @@ import { AiOutlineCheck } from 'react-icons/ai';
 const Employment1 = () => {
   return (
     <>
-      <div className='individual1'>
-        <div className='individual1-content'>
+      <div className='employment1'>
+        <div className='employment1-content'>
 
 {/* FLEX ITEMS */}
 
-            <div className='individual1-flex container'>
-                <div className='individual1-icon'>
+            <div className='employment1-flex container'>
+                <div className='employment1-icon'>
                     <img src={ EmploymentIMG1 } alt="Employment Program" loading="lazy"/>
                 </div>
 
-                <div className='individual-caption'>
+                <div className='employment1-caption'>
                     <div>
                         <h1>Employment Assistance</h1>
                         <p>Hear from our professionals to help you secure employment with major corporations, felon-friendly companiesk, and small businesses.</p>
