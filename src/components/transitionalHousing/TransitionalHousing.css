@@ -24,7 +24,7 @@
 .housing .housing-content {
     display: block;
     position: absolute;
-    top: 40%;
+    top: 60%;
     padding: 1rem;
     width: 50%;
 }
@@ -46,7 +46,8 @@
 }
 
 .housing h1 {
-    font-size: 4rem;
+    font-size: 5rem;
+    font-family: 'Indie Flower', cursive;
     color: rgb(255, 255, 255);
     text-align: center;
 }
