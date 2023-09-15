@@ -19,26 +19,21 @@
 }
 
 .housing1-icon {
-    width: 40%;
+    width: 500px;
     margin: auto;
 }
 
 .housing1-icon img {
     width: 100%;
-    border-radius: 3rem;
 }
 
 .housing1-caption {
     width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: auto;
     padding: 1rem;
 }
 
 .housing1-caption h1 {
-    padding: .8rem 0;
     font-size: 3rem;
 }
 
@@ -57,7 +52,12 @@
     }
 
     .housing1-icon {
-        margin-bottom: -3rem;
+        width: 90%;
+    }
+    
+    .housing1-caption {
+        width: 90%;
+;
     }
     
 }

@@ -18,7 +18,7 @@ const Footer = () => {
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/'>
                     <div className="logo-footer">
-                        <img src={logo} width="150px" height="60px" alt="Palm Springs Rehab Logo" loading="lazy"/>
+                        <img src={logo} alt="Logo" loading="lazy"/>
                     </div>
                     </Link>
                         </LinkRoll>
@@ -79,8 +79,9 @@ const Footer = () => {
 
                 </div>
 
-
-                <p className='copyright'><p>&copy; 2023 Transitions For Tomorrow. All rights reserved</p></p>
+                <div className='copyright'>
+                    <p>&copy; 2023 Transitions For Tomorrow. All rights reserved</p>
+                </div>
 
             </div>
 

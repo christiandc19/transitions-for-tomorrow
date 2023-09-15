@@ -19,6 +19,7 @@ padding: 0 2rem;
 
 .navbar-logo {
   width: 200px;
+  z-index: 2;
 }
 .navbar-logo img {
   width: 100%;

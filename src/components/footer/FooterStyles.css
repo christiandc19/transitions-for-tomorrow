@@ -20,9 +20,16 @@
     z-index: -1;
   }
   
-
   .footer-content {
     padding: 3rem 0;
+  }
+
+  .logo-footer {
+    width: 200px;
+  }
+
+  .logo-footer img {
+    width: 100%;
   }
 
 .footer .container {
@@ -100,6 +107,10 @@
     text-align: center;
 }
 
+.copyright {
+    width: 100%;
+    padding: 1rem;
+}
 
 .copyright p {
     color: rgb(19, 18, 18);
@@ -119,7 +130,12 @@
         background-color: rgba(172, 221, 236, 0.11);
         width: 90%;
     }
-    
+
+    .copyright {
+        width: 90%;
+        padding: 1rem;
+    }
+
 }
 
 

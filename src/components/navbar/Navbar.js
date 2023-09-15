@@ -10,20 +10,6 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleNav = () => setNav(!nav)
 
-    // const [isMenu, setisMenu] = useState(false);
-
-
-    // const toggleClass = () => {
-    //     setisMenu(isMenu === false ? true : false);
-    // };
-
-    // let boxClass = ["main-menu menu-right menuq1"];
-    // if(isMenu) {
-    //     boxClass.push('menuq2');
-    // }else{
-    //     boxClass.push('');
-    // }
-
     const [isMenuSubMenu, setMenuSubMenu] = useState(false);
       
     const toggleSubmenu = () => {
@@ -45,7 +31,7 @@ const Navbar = () => {
                 
                  <div className="navbar-logo">
                     <Link to='/'>
-                    <img src={logo} alt="Palm Springs Rehab Logo" loading="lazy"/>
+                    <img src={logo} alt="Logo" loading="lazy"/>
                     </Link>
                 </div>
 
