@@ -1,7 +1,6 @@
 .section1 {
     background-color: rgb(255, 255, 255);
     padding: 5rem 0;
-    /* background: url('../../assets/hero-bg-1.jpg') no-repeat center top/cover; */
     position: relative;
     z-index: 1;
 }
@@ -19,6 +18,7 @@
 }
 
 .section1-content {
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -74,6 +74,15 @@
     left: 0;
     z-index: -1;
 }
+
+@media screen and (max-width:940px) {
+    .section1-header h1 {
+        text-align: center;
+        padding: 1rem 0;
+        font-size: 2rem;
+    }
+}
+
 @media screen and (max-width:700px) {
     .section1-card {
         display: flex;
@@ -86,13 +95,4 @@
         box-shadow: 10px 14px 15px -14px rgba(0,0,0,0.75);
     }
 
-}
-
-
-@media screen and (max-width:940px) {
-    .section1-header h1 {
-        text-align: center;
-        padding: 1rem 0;
-        font-size: 2rem;
-    }
 }
